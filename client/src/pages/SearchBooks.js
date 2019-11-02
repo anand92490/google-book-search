@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
 import { Col, Row, Container } from "../components/Grid";
+import SearchForm from "../components/SearchForm";
+import SearchResult from "../components/SearchResult"
 
 class SearchBooks extends Component {
     state = {
@@ -35,12 +37,12 @@ class SearchBooks extends Component {
                     <h1 className="text-white">
                         (React) Google Books Search
                      </h1>
-                     <h3 className="text-white">Search for and Save Books of Intere st</h3>
+                     <h3 className="text-white">Search for and Save Books of Interest</h3>
                 </Jumbotron>
                 <Container>
                     <Row>
                         <Col size="12">
-                            <SearchFrom
+                            <SearchForm
                                 handleFormSubmit={this.handleFormSubmit}
                                 handleInputChange={this.handleInputChange}
                             />
