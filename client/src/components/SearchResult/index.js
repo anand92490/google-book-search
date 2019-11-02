@@ -44,7 +44,7 @@ const SearchResult = props => {
                                             Save Book
                                         </button>
                                         <a href={book.link} target="_blank">
-                                            <button className="viewBook btn btn-success">
+                                            <button className="viewBook btn btn-info">
                                                 View Book
                                             </button>
                                         </a>
