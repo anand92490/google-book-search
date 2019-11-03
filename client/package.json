@@ -10,6 +10,10 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
+  "engines": {
+    "npm": "6.11.3",
+    "node": "10.15.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
